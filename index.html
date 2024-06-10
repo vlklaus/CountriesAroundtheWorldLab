@@ -11,12 +11,16 @@
     <div id="Color2" class="centerElement halfWidth">
         <div id="Color3" class="floatLeft halfWidth">
             <h2 id="CountryName">Country Name Goes here!</h2>
+            <img id="CountryFlag" height="135px" src="https://i.ebayimg.com/images/g/0~gAAMXQ9qpRTk04/s-l1200.jpg">
             <h2 id="OfficialLanguage">Official Language Goes here!</h2>
             <h2 id="HelloWorld">Hello World Goes here!</h2>
             <select id="CountryList">
                 <option value="USA">USA</option>
                 <option value="Mexico">Mexico</option>
                 <option value="Algeria">Algeria</option>
+                <option value="China">China</option>
+                <option value="Germany">Germany</option>
+                <option value="Ireland">Ireland</option>
             </select>
             <button onclick="SwitchCountry()">Swap Country</button>
         </div>
@@ -26,3 +30,19 @@
 </body>
 
 </html>
+
+
+<!--
+class Country {
+    constructor(name, lang, greeting, colors) {
+        this.name = name;
+        this.lang = lang;
+        this.greeting = greeting;
+        this.colors = colors;
+    }
+    displayColors(){
+	//logic here
+	namenode.innertext = this.name
+    }
+}
+-->
